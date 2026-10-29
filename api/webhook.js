@@ -10,7 +10,8 @@ export default async function handler(req, res) {
 
   const chatId = update.message.chat.id;
   const text = update.message.text.trim();
-  const token = process.env.TELEGRAM_BOT_TOKEN || update.token; 
+    const token = "7992849769:AAGx8XFwgON5dxm9JVpgnXskSfsG1rXIUJw"; // توکن ربات تلگرامت رو اینجا مستقیماً بنویس
+  
 
   let replyText = "";
 
